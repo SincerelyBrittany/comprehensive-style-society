@@ -1,15 +1,26 @@
-import logo from './logo.svg';
 import './App.scss';
 import './Filter.scss';
-import React, { useState, Component } from 'react';
+import ExportCode from './components/ExportCode';
+import React, { Component } from 'react';
 
 export default class App extends Component {
 
   constructor(props) {
     super(props);
     this.state = {
-      test: 28
+      fontSize: 16,
+      showCode: false
     }
+    this.showCode = this.showCode.bind(this);
+  }
+  showCode() {
+    this.setState(state => ({
+        showCode: !state.showCode
+    }));
+  }
+  fontSlider(e) {
+    this.setState({fontSize: e.target.value});
+    document.getElementById('generatedButton').style.fontSize = e.target.value + 'px';
   }
 
   render() {
@@ -64,12 +75,15 @@ export default class App extends Component {
             CSS Generator
           </div>
           <div className="button-window card">
-            <button>
-              Click me
+            <button id="generatedButton">
+              Button
             </button>
           </div>
           <div className="json-window card">
-            This is text\nwith a stdfdf\nsdfsdfsdf\nsdfdsfsdfsd\n
+            <button onClick={this.showCode}>
+                Show CSS
+            </button>
+            {this.state.showCode ? <ExportCode fontSize={this.state.fontSize} /> : null }
           </div>
         </div>
         <div className="column right-column">
@@ -77,8 +91,8 @@ export default class App extends Component {
             <p>Color filters</p>
             <div className="filters-container">
               <div className="range-slider">
-                <input className="range-slider__range" type="range" value={this.state.test} onChange={(e) => this.setState({test: e.target.value})} min="0" max="100"/>
-                <span className="range-slider__value">0</span>
+                <input className="range-slider__range" type="range" value={this.state.fontSize} onChange={(e) => this.fontSlider(e)} min="0" max="100"/>
+                <span className="range-slider__value">{this.state.fontSize}</span>
               </div>
             </div>
           </div>
