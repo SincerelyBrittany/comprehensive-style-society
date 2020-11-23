@@ -1,0 +1,29 @@
+.token {
+    color: lightgrey;
+    font-family: Consolas,Monaco,'Andale Mono',monospace;
+    font-size: 11px;
+    text-align: left;
+    word-spacing: normal;
+    tab-size: 4;
+    hyphens: none;
+}
+.token .tag {
+    color: purple;
+}
+.token .attr-name{
+    color: greenyellow;
+}
+.token .attr-value{
+    color: lightskyblue;
+}
+.selector {
+    color: greenyellow;
+}
+.property {
+    color: purple;
+}
+.language {
+    color: black;
+    font-size: 11px;
+    text-align: left;
+}
