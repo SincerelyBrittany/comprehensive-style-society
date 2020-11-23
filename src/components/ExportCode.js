@@ -13,48 +13,91 @@ export default class ExportCode extends React.Component {
         var buttonText = "BUTTON";
         return (
             <div>
-                <code id="html-code" class="language">
-                    <span class="token tag">
-                        <span class="token tag">
-                            <span class="token punctuation">&lt;</span>
+                <code id="html-code" className="language">
+                    <span className="token tag">
+                        <span className="token tag">
+                            <span className="token punctuation">&lt;</span>
                             a
                         </span>
                         &nbsp;
-                        <span class="token attr-name">href</span>
-                        <span class="token attr-value">
-                            <span class="token punctuation">="</span>
+                        <span className="token attr-name">href</span>
+                        <span className="token attr-value">
+                            <span className="token punctuation">="</span>
                             #
-                            <span class="token punctuation">"</span>
+                            <span className="token punctuation">"</span>
                         </span>
                         &nbsp;
-                        <span class="token attr-name">class</span>
-                        <span class="token attr-value">
-                            <span class="token punctuation">="</span>
+                        <span className="token attr-name">class</span>
+                        <span className="token attr-value">
+                            <span className="token punctuation">="</span>
                             {className}
-                            <span class="token punctuation">"</span>
+                            <span className="token punctuation">"</span>
                         </span>
-                        <span class="token punctuation">&gt;</span>
+                        <span className="token punctuation">&gt;</span>
                     </span>
                     {buttonText}
-                    <span class="token tag">
-                        <span class="token tag">
-                            <span class="token punctuation">&lt;/</span>
+                    <span className="token tag">
+                        <span className="token tag">
+                            <span className="token punctuation">&lt;/</span>
                             a
                         </span>
-                        <span class="token punctuation">&gt;</span>
+                        <span className="token punctuation">&gt;</span>
                     </span>
                 </code>
                 <br></br>
-                <code id="css-code" class="language">
-                    <span class="token selector">.{className} </span>
-                    <span class="token punctuation">&#123;</span><br></br>
+                <code id="css-code" className="language">
+                    <span className="token selector">.{className} </span>
+                    <span className="token punctuation">&#123;</span><br></br>
 
-                    <span class="token property">font-size</span>
-                    <span class="token punctuation">:</span>
+                    <span className="token property">font-size</span>
+                    <span className="token punctuation">:</span>
                     &nbsp;{this.props.fontSize}
-                    <span class="token punctuation">;</span>
+                    <span className="token punctuation">;</span>
+                    <br/>
+
+                    <span className="token property">font-size</span>
+                    <span className="token punctuation">:</span>
+                    &nbsp;{this.props.fontSize}
+                    <span className="token punctuation">;</span>
+                    <br/>
+
+                    <span className="token property">font-size</span>
+                    <span className="token punctuation">:</span>
+                    &nbsp;{this.props.fontSize}
+                    <span className="token punctuation">;</span>
+                    <br/>
+
+                    <span className="token property">font-size</span>
+                    <span className="token punctuation">:</span>
+                    &nbsp;{this.props.fontSize}
+                    <span className="token punctuation">;</span>
+                    <br/>
+
+                    <span className="token property">font-size</span>
+                    <span className="token punctuation">:</span>
+                    &nbsp;{this.props.fontSize}
+                    <span className="token punctuation">;</span>
+                    <br/>
+
+                    <span className="token property">font-size</span>
+                    <span className="token punctuation">:</span>
+                    &nbsp;{this.props.fontSize}
+                    <span className="token punctuation">;</span>
+                    <br/>
+
+                    <span className="token property">font-size</span>
+                    <span className="token punctuation">:</span>
+                    &nbsp;{this.props.fontSize}
+                    <span className="token punctuation">;</span>
+                    <br/>
+
+                    <span className="token property">font-size</span>
+                    <span className="token punctuation">:</span>
+                    &nbsp;{this.props.fontSize}
+                    <span className="token punctuation">;</span>
+                    <br/>
                     
-                    <br></br><span class="token punctuation">&#125;</span>
+                    <span className="token punctuation">&#125;</span>
                 </code>
             </div>
         );

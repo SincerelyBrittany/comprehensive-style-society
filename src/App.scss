@@ -34,6 +34,8 @@
 
 .right-column {
   width: 29%;
+  overflow: auto;
+  height: 100vh;
 }
 
 .card {
@@ -58,7 +60,8 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 20vh;
+  height: 40vh;
+  overflow: auto;
 }
 
 .presets {
@@ -103,8 +106,16 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 25vh;
+  height: 32vh;
   width: 100%
+}
+
+.four {
+  height: 55vh;
+}
+
+.three {
+  height: 43vh;
 }
 
 .filters-container {
@@ -119,4 +130,18 @@
 .slider {
   background: lightgrey;
   outline: none;
+}
+
+.attribute {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.filterType {
+  font-weight: 700;
+  margin-bottom: 0;
 }
