@@ -144,7 +144,6 @@ export default class App extends Component {
             borderWidth = {this.state.borderWidth}
             borderRadius = {this.state.borderRadius}
             shadow = {this.state.shadow}
-            backgroundColor = {this.state.backgroundColor}
             textColor = {this.state.textColor}
             borderColor = {this.state.borderColor}
             opacity = {this.state.opacity}
