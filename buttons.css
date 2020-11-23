@@ -1,0 +1,249 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #F6F6F6;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.button-grid {
+    max-width: 400px;
+    margin: 0 auto;
+    border: 2px solid #111;
+    border-radius: 5px;
+}
+
+.all-buttons {
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+}
+
+/*
+Colors: #14FB9D
+        #450AE2
+*/
+
+#button1 {
+  background-color: #14FB9D;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#button2 {
+    background-color: #450AE2;
+    opacity: 0.5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#button3 {
+    background-color: #14FB9D;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#button4 {
+    background-color: #450AE2;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#button5 {
+    background-color: #F6F6F6;
+    border: 2px solid #14FB9D;
+    border-radius: 12px;
+    color: black;
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#button6 {
+    background-color: #F6F6F6;
+    border: 10px solid #450AE2;
+    border-radius: 12px;
+    color: black;
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#button7 {
+    background-color: #F6F6F6;
+    border: 5px solid #14FB9D;
+    border-radius: 12px;
+    color: black;
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+#button7:hover {
+    background-color: #14FB9D;
+    color: white;
+}
+
+#button8 {
+    background-color: #F6F6F6;
+    border: 5px solid #450AE2;
+    border-radius: 12px;
+    color: black;
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+#button8:hover {
+    background-color: #450AE2;
+    opacity: 0.5;
+    color: white;
+}
+
+#button9 {
+    background-color: #14FB9D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#button10 {
+    background-color: #450AE2;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#button10:hover {
+    box-shadow: 0 16px 24px 0 rgba(0,0,0,0.28), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#button11 {
+    background-color: #14FB9D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+#button11:hover {
+    transform: scale(1.25);
+}
+
+#button12 {
+    background-color: #450AE2;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+#button12:hover {
+    transform: scale(0.75);
+}
+
+#button13 {
+    background-color: #F6F6F6;
+    border: 2px solid #14FB9D;
+    color: black;
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    background: linear-gradient(to left, #F6F6F6 50%, #14FB9D 50%) right;
+    background-size: 200%;
+    transition: 0.5s ease-out;
+}
+
+#button13:hover {
+    background-position: left;
+    color: white;
+}
+
+#button14 {
+    background-color: #F6F6F6;
+    border: 2px solid #450AE2;
+    color: black;
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    background: linear-gradient(to right, #F6F6F6 50%, #450AE2 50%) left;
+    background-size: 200%;
+    transition: 0.5s ease-out;
+}
+
+#button14:hover {
+    background-position: right;
+    color: white;
+}
+
+#button15 {
+    background-color: #14FB9D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+#button15:hover {
+    transform: scale(1.1) rotate(8deg);
+}
+
+#button16 {
+    background-color: #450AE2;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+#button16:hover {
+    transform: scale(1.1) rotate(-8deg);
+}
