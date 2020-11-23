@@ -23,7 +23,10 @@ class ColorPicker extends React.Component {
           width: '36px',
           height: '14px',
           borderRadius: '2px',
-          background: `rgba(${ this.props.backgroundColor.r }, ${ this.props.backgroundColor.g }, ${ this.props.backgroundColor.b }, ${ this.props.backgroundColor.a })`,
+          background: `rgba(r: '241',
+          g: '112',
+          b: '19',
+          a: '1',)`,
         },
         swatch: {
           padding: '5px',
@@ -53,7 +56,10 @@ class ColorPicker extends React.Component {
         </div>
         { this.state.displayColorPicker ? <div>
           <div onClick={ this.handleClose }/>
-          <SketchPicker backgroundColor={ this.props.backgroundColor } onChange={ this.props.handleColorChange } />
+          {this.props.color === "backgroundColor" ?
+               <SketchPicker backgroundColor={ this.props.backgroundColor } onChange={ this.props.handleBackgroundColorChange } />
+        : <SketchPicker textColor={ this.props.textColor } onChange={ this.props.handleTextColorChange } /> }
+
         </div> : null }
 
       </div>
