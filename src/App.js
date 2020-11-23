@@ -18,7 +18,12 @@ export default class App extends Component {
       borderWidth: 1,
       borderRadius: 0,
       shadow: 0,
-      backgroundColor: "",
+      backgroundColor: {
+        r: '241',
+        g: '112',
+        b: '19',
+        a: '1',
+      },
       textColor: "",
       borderColor: "",
       opacity: 0,
@@ -74,6 +79,12 @@ export default class App extends Component {
     this.setState({opacity: e.target.value});
     document.getElementById('generatedButton').style.opacity = e.target.value + '%';
   }
+
+  handleColorChange = (color) => {
+    this.setState({ color: color.rgb })
+    console.log(color.rgb, "this is color")
+    document.getElementById('generatedButton').style.backgroundColor = "rgb(" + color.rgb.r + "," + color.rgb.g + "," + color.rgb.b + ")"
+  };
 
   render() {
     return (
@@ -236,6 +247,7 @@ export default class App extends Component {
               <div className="attribute">
                 <p>Background Color</p>
                 <div className="range-slider">
+                <CustomColorPicker backgroundColor={this.state.backgroundColor} handleColorChange={this.handleColorChange}/>
                   <input className="range-slider__range" type="range" value={this.state.fontSize} onChange={(e) => this.fontSlider(e)} min="0" max="100"/>
                   <span className="range-slider__value">{this.state.fontSize}</span>
                 </div>
