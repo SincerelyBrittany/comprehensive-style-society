@@ -18,7 +18,6 @@ export default class App extends Component {
       borderWidth: 1,
       borderRadius: 0,
       shadow: 0,
-      color: 'backgroundColor',
       backgroundColor: {
         r: '241',
         g: '112',
@@ -267,7 +266,7 @@ export default class App extends Component {
               <div className="attribute">
                 <p>Text Color</p>
                 <div className="range-slider">
-                <CustomColorPicker color="textColor" textColor={this.state.textColor} handleTextColorChange={this.handleTextColorChange}/>
+                {/* <CustomColorPicker color="textColor" textColor={this.state.textColor} handleTextColorChange={this.handleTextColorChange}/> */}
                   <input className="range-slider__range" type="range" value={this.state.fontSize} onChange={(e) => this.fontSlider(e)} min="0" max="100"/>
                   <span className="range-slider__value">{this.state.fontSize}</span>
                 </div>
