@@ -21,17 +21,12 @@ class ColorPicker extends React.Component {
     this.setState({ displayColorPicker: false })
   };
 
-  // setBackgrondColor = () => {
-  //   this.setState({ color: this.props.backgroundColor })
-  // }
 
   handleItems = () => {
     console.log(this.props.color, "this is props color")
     if(this.props.color === "backgroundColor"){
-      // this.setBackgrondColor()
       return <SketchPicker color={ this.props.backgroundColor } onChange={ this.props.handleBackgroundColorChange } /> 
     } else if (this.props.color === "textColor"){
-      // this.setState({ color: this.props.textColor })
       return <SketchPicker textColor={ this.props.textColor } onChange={ this.props.handleTextColorChange } /> 
     } else if(this.props.color === "borderColor")
     return <SketchPicker borderColor={ this.props.borderColor } onChange={ this.props.handleBorderColorChange } /> 
@@ -56,15 +51,8 @@ class ColorPicker extends React.Component {
           cursor: 'pointer',
         },
         popover: {
-          // position: 'absolute',
-          // zIndex: '2',
         },
         cover: {
-          // position: 'fixed',
-          // top: '0px',
-          // right: '0px',
-          // bottom: '0px',
-          // left: '0px',
         },
       },
     });
@@ -87,22 +75,4 @@ class ColorPicker extends React.Component {
 }
 
 export default ColorPicker
-
-//     return (
-//       <div>
-//         <div style={ styles.swatch } onClick={ this.handleClick }>
-//           <div style={ styles.color } />
-//         </div>
-//         { this.state.displayColorPicker ? <div>
-//           <div onClick={ this.handleClose }/>
-//           {this.props.color === "backgroundColor" ?
-//                <SketchPicker backgroundColor={ this.props.backgroundColor } onChange={ this.props.handleBackgroundColorChange } />
-//         : <SketchPicker textColor={ this.props.textColor } onChange={ this.props.handleTextColorChange } /> }
-
-//         </div> : null }
-
-//       </div>
-//     )
-//   }
-// }
 

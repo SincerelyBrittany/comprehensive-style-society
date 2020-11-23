@@ -268,25 +268,18 @@ export default class App extends Component {
                 <p>Background Color</p>
                 <div className="range-slider">
                 <CustomColorPicker color="backgroundColor" backgroundColor={this.state.backgroundColor} handleBackgroundColorChange={this.handleBackgroundColorChange}/>
-                  {/* <input className="range-slider__range" type="range" value={this.state.fontSize} onChange={(e) => this.fontSlider(e)} min="0" max="100"/>
-                  <span className="range-slider__value">{this.state.fontSize}</span> */}
                 </div>
               </div>
               <div className="attribute">
                 <p>Text Color</p>
                 <div className="range-slider">
                 <CustomColorPicker color="textColor" textColor={this.state.textColor} handleTextColorChange={this.handleTextColorChange}/>
-                  {/* <input className="range-slider__range" type="range" value={this.state.fontSize} onChange={(e) => this.fontSlider(e)} min="0" max="100"/>
-                  <span className="range-slider__value">{this.state.fontSize}</span> */}
                 </div>
               </div>
               <div className="attribute">
                 <p>Border Color</p>
                 <div className="range-slider">
                 <CustomColorPicker color="borderColor" borderColor={this.state.borderColor} handleBorderColorChange={this.handleBorderColorChange}/>
-        
-                  {/* <input className="range-slider__range" type="range" value={this.state.fontSize} onChange={(e) => this.fontSlider(e)} min="0" max="100"/>
-                  <span className="range-slider__value">{this.state.fontSize}</span> */}
                 </div>
               </div>
               <div className="attribute">
