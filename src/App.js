@@ -1,6 +1,7 @@
 import './App.scss';
 import './Filter.scss';
 import ExportCode from './components/ExportCode';
+import CustomColorPicker from './components/ColorPicker'
 import React, { Component } from 'react';
 
 export default class App extends Component {
@@ -96,6 +97,7 @@ export default class App extends Component {
               </div>
             </div>
           </div>
+          <CustomColorPicker />
         </div>
       </div>
     );
