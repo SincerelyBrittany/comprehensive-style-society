@@ -91,13 +91,13 @@ export default class App extends Component {
           <div className="filters card">
             <p>Color filters</p>
             <div className="filters-container">
+                <CustomColorPicker />
               <div className="range-slider">
                 <input className="range-slider__range" type="range" value={this.state.fontSize} onChange={(e) => this.fontSlider(e)} min="0" max="100"/>
                 <span className="range-slider__value">{this.state.fontSize}</span>
               </div>
             </div>
           </div>
-          <CustomColorPicker />
         </div>
       </div>
     );
