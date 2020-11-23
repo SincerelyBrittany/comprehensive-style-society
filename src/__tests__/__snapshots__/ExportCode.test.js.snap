@@ -1,0 +1,272 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders as an anchor when no page is set 1`] = `
+<div>
+  <code
+    class="language"
+    id="html-code"
+  >
+    <span
+      class="token tag"
+    >
+      <span
+        class="token tag"
+      >
+        <span
+          class="token punctuation"
+        >
+          &lt;
+        </span>
+        a
+      </span>
+       
+      <span
+        class="token attr-name"
+      >
+        href
+      </span>
+      <span
+        class="token attr-value"
+      >
+        <span
+          class="token punctuation"
+        >
+          ="
+        </span>
+        #
+        <span
+          class="token punctuation"
+        >
+          "
+        </span>
+      </span>
+       
+      <span
+        class="token attr-name"
+      >
+        class
+      </span>
+      <span
+        class="token attr-value"
+      >
+        <span
+          class="token punctuation"
+        >
+          ="
+        </span>
+        myButton
+        <span
+          class="token punctuation"
+        >
+          "
+        </span>
+      </span>
+      <span
+        class="token punctuation"
+      >
+        &gt;
+      </span>
+    </span>
+    BUTTON
+    <span
+      class="token tag"
+    >
+      <span
+        class="token tag"
+      >
+        <span
+          class="token punctuation"
+        >
+          &lt;/
+        </span>
+        a
+      </span>
+      <span
+        class="token punctuation"
+      >
+        &gt;
+      </span>
+    </span>
+  </code>
+  <br />
+  <code
+    class="language"
+    id="css-code"
+  >
+    <span
+      class="token selector"
+    >
+      .
+      myButton
+       
+    </span>
+    <span
+      class="token punctuation"
+    >
+      {
+    </span>
+    <br />
+    <span
+      class="token property"
+    >
+      font-size
+    </span>
+    <span
+      class="token punctuation"
+    >
+      :
+    </span>
+     
+    16
+    <span
+      class="token punctuation"
+    >
+      ;
+    </span>
+    <br />
+    <span
+      class="token punctuation"
+    >
+      }
+    </span>
+  </code>
+</div>
+`;
+
+exports[`will check ExportCode component renders 1`] = `
+<div>
+  <code
+    class="language"
+    id="html-code"
+  >
+    <span
+      class="token tag"
+    >
+      <span
+        class="token tag"
+      >
+        <span
+          class="token punctuation"
+        >
+          &lt;
+        </span>
+        a
+      </span>
+       
+      <span
+        class="token attr-name"
+      >
+        href
+      </span>
+      <span
+        class="token attr-value"
+      >
+        <span
+          class="token punctuation"
+        >
+          ="
+        </span>
+        #
+        <span
+          class="token punctuation"
+        >
+          "
+        </span>
+      </span>
+       
+      <span
+        class="token attr-name"
+      >
+        class
+      </span>
+      <span
+        class="token attr-value"
+      >
+        <span
+          class="token punctuation"
+        >
+          ="
+        </span>
+        myButton
+        <span
+          class="token punctuation"
+        >
+          "
+        </span>
+      </span>
+      <span
+        class="token punctuation"
+      >
+        &gt;
+      </span>
+    </span>
+    BUTTON
+    <span
+      class="token tag"
+    >
+      <span
+        class="token tag"
+      >
+        <span
+          class="token punctuation"
+        >
+          &lt;/
+        </span>
+        a
+      </span>
+      <span
+        class="token punctuation"
+      >
+        &gt;
+      </span>
+    </span>
+  </code>
+  <br />
+  <code
+    class="language"
+    id="css-code"
+  >
+    <span
+      class="token selector"
+    >
+      .
+      myButton
+       
+    </span>
+    <span
+      class="token punctuation"
+    >
+      {
+    </span>
+    <br />
+    <span
+      class="token property"
+    >
+      font-size
+    </span>
+    <span
+      class="token punctuation"
+    >
+      :
+    </span>
+     
+    <span
+      class="token punctuation"
+    >
+      ;
+    </span>
+    <br />
+    <span
+      class="token punctuation"
+    >
+      }
+    </span>
+  </code>
+</div>
+`;
+
+exports[`will check the font-size attribute 1`] = `
+Object {
+  "fontSize": Any<Number>,
+}
+`;
