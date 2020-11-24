@@ -53,7 +53,10 @@ class ColorPicker extends React.Component {
   }
 
   render() {
-
+    var newTop = 0;
+    if (document.getElementById('rightColumn')) {
+      newTop = -document.getElementById('rightColumn').style.top + 100;
+    }
     const styles = reactCSS({
       'default': {
         color: {
@@ -71,8 +74,16 @@ class ColorPicker extends React.Component {
           cursor: 'pointer',
         },
         popover: {
+          position: 'absolute',
+          top: newTop,
         },
         cover: {
+          position: 'fixed',
+          top: 0,
+          left: 0,
+          height: '100vh',
+          width: '100vw',
+          z: 3
         },
       },
     });
