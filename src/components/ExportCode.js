@@ -1,13 +1,23 @@
 import React from 'react';
 import '../css/ExportCode.scss';
+import {CopyToClipboard} from 'react-copy-to-clipboard';
+
 export default class ExportCode extends React.Component {
     constructor(props) {
         super(props);
+        this.state = {
+            code: '',
+            copied: false
+        }
+        this.onCopy = this.onCopy.bind(this);
     }
-
-    exportCode(e) {
-    }
-
+    onCopy() {
+        this.setState({copied: true});
+        var html = document.getElementById('html-code').innerText;
+        var css = document.getElementById('css-code').innerText;
+        var code = html + "\n" + css;
+        this.state.code = code; 
+      };
     render() {
         var className = "myButton";
         var buttonText = "BUTTON";
@@ -56,6 +66,15 @@ export default class ExportCode extends React.Component {
                     
                     <br></br><span class="token punctuation">&#125;</span>
                 </code>
+                <br></br>
+                    <span>
+                    <CopyToClipboard onCopy={this.onCopy} text={this.state.code}>
+                        <button>Copy to clipboard</button>
+                    </CopyToClipboard>
+                    <section className="section">
+                    {this.state.copied ? <span style={{color: 'red'}}>Copied.</span> : null}
+                    </section>
+                </span>
             </div>
         );
     }
