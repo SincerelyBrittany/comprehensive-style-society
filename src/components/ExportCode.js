@@ -111,24 +111,17 @@ export default class ExportCode extends React.Component {
                     <pre className="tab">   </pre>
                     <span className="token property">background-color</span>
                     <span className="token punctuation">:</span>
-                    &nbsp;{this.props.borderRadius}px
+                    &nbsp;rgba({this.props.backgroundColor.r }, { this.props.backgroundColor.g }, { this.props.backgroundColor.b }, { this.props.backgroundColor.a })
                     <span className="token punctuation">;</span>
                     <br/>
 
                     <pre className="tab">   </pre>
                     <span className="token property">border-color</span>
                     <span className="token punctuation">:</span>
-                    &nbsp;{this.props.borderRadius}px
+                    &nbsp;rgba({this.props.borderColor.r }, { this.props.borderColor.g }, { this.props.borderColor.b }, { this.props.borderColor.a })
                     <span className="token punctuation">;</span>
                     <br/>
-
-                    <pre className="tab">   </pre>
-                    <span className="token property">opacity</span>
-                    <span className="token punctuation">:</span>
-                    &nbsp;{this.props.borderRadius}px
-                    <span className="token punctuation">;</span>
-                    <br/>
-                    
+        
                     <span className="token punctuation">&#125;</span>
                 </code>
             </div>
