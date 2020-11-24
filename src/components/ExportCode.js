@@ -97,14 +97,14 @@ export default class ExportCode extends React.Component {
                     <pre className="tab">   </pre>
                     <span className="token property">box-shadow</span>
                     <span className="token punctuation">:</span>
-                    &nbsp;0 0 {this.props.borderRadius}px {this.props.borderRadius}px rgba(0,0,0,0.2)
+                    &nbsp;{this.props.shadow}px
                     <span className="token punctuation">;</span>
                     <br/>
 
                     <pre className="tab">   </pre>
                     <span className="token property">color</span>
                     <span className="token punctuation">:</span>
-                    &nbsp;{this.props.borderRadius}px
+                    &nbsp;rgba({this.props.textColor.r }, { this.props.textColor.g }, { this.props.textColor.b }, { this.props.textColor.a })
                     <span className="token punctuation">;</span>
                     <br/>
 
