@@ -18,9 +18,24 @@ export default class App extends Component {
       borderWidth: 1,
       borderRadius: 0,
       shadow: 0,
-      backgroundColor: "",
-      textColor: "",
-      borderColor: "",
+      backgroundColor: {
+        r: '241',
+        g: '112',
+        b: '19',
+        a: '1',
+      },
+      textColor: {
+        r: '241',
+        g: '112',
+        b: '19',
+        a: '1',
+      },
+      borderColor: {
+        r: '241',
+        g: '112',
+        b: '19',
+        a: '1',
+      },
       opacity: 0,
       showCode: false
     }
@@ -74,11 +89,33 @@ export default class App extends Component {
     document.getElementById('generatedButton').style.opacity = e.target.value + '%';
   }
 
+  handleBackgroundColorChange = (color) => {
+    this.setState({ backgroundColor: color.rgb })
+    document.getElementById('generatedButton').style.backgroundColor = "rgba(" + color.rgb.r + "," + color.rgb.g + "," + color.rgb.b + "," + color.rgb.a + ")"
+  };
+
+  handleTextColorChange = (color) => {
+    this.setState({ textColor: color.rgb })
+    document.getElementById('generatedButton').style.color = "rgba(" + color.rgb.r + "," + color.rgb.g + "," + color.rgb.b + "," + color.rgb.a + ")"
+  };
+
+  handleBorderColorChange = (color) => {
+    console.log("in the border", color)
+    this.setState({ borderColor: color.rgb })
+    document.getElementById('generatedButton').style.borderColor = "rgba(" + color.rgb.r + "," + color.rgb.g + "," + color.rgb.b + "," + color.rgb.a + ")"
+  };
+
   render() {
+    var buttonText = "Show CSS";
+    if (this.state.showCode) {
+      buttonText = "Hide CSS"
+    }
+
     return (
       <div className="App">
         <div className="column left-column">
           <div className="presets card">
+            <div className="highlight"></div>
             <p>Basic Presets</p>
             <div className="preset-container">
               <div className="preset-row">
@@ -99,8 +136,63 @@ export default class App extends Component {
               </div>
             </div>
           </div>
-          <div className="presets card">
+          <div className="presets six card">
+            <div className="highlight"></div>
             <p>Other Presets</p>
+            <div className="preset-container">
+              <div className="preset-row">
+                <div className="preset">
+                  <button id="thin-border-effect">Button</button>
+                </div>
+                <div className="preset">
+                  <button id="thick-border-effect">Button</button>
+                </div>
+              </div>
+              <div className="preset-row">
+                <div className="preset">
+                  <button id="hover-normal-fill-effect">Button</button>
+                </div>
+                <div className="preset">
+                  <button id="hover-opaque-fill-effect">Button</button>
+                </div>
+              </div>
+              <div className="preset-row">
+                <div className="preset">
+                  <button id="shadow-effect">Button</button>
+                </div>
+                <div className="preset">
+                  <button id="hover-shadow-effect">Button</button>
+                </div>
+              </div>
+              <div className="preset-row">
+                <div className="preset">
+                  <button id="hover-grow-effect">Button</button>
+                </div>
+                <div className="preset">
+                  <button id="hover-shrink-effect">Button</button>
+                </div>
+              </div>
+              <div className="preset-row">
+                <div className="preset">
+                  <button id="hover-slide-right-effect">Button</button>
+                </div>
+                <div className="preset">
+                  <button id="hover-slide-left-effect">Button</button>
+                </div>
+              </div>
+              <div className="preset-row">
+                <div className="preset">
+                  <button id="hover-rotate-right-effect">Button</button>
+                </div>
+                <div className="preset">
+                  <button id="hover-rotate-left-effect">Button</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="presets six card">
+            <div className="highlight"></div>
+            <p>Random Presets</p>
             <div className="preset-container">
               <div className="preset-row">
                 <div className="preset">
@@ -163,9 +255,9 @@ export default class App extends Component {
             </button>
           </div>
           <div className="json-window card">
-            <button onClick={this.showCode}>
-                Show CSS
-            </button>
+            <div className="showButton" onClick={this.showCode}>
+                {buttonText}
+            </div>
             {this.state.showCode ? <ExportCode fontSize={this.state.fontSize} 
             fontFamily = {this.state.fontFamily}
             fontEmphasis = {this.state.fontEmphasis}
@@ -181,17 +273,11 @@ export default class App extends Component {
             backgroundColor = {this.state.backgroundColor} false/> : null }
           </div>
         </div>
-        <div className="column right-column">
-          <div className="filters three card">
+        <div className="column right-column" id="rightColumn">
+          <div className="filters two card">
+            <div className="highlight"></div>
             <p className="filterType">Font</p>
             <div className="filters-container">
-              <div className="attribute">
-                <p>Font Family</p>
-                <div className="range-slider">
-                  <input className="range-slider__range" type="range" value={this.state.fontSize} onChange={(e) => this.fontSlider(e)} min="0" max="100"/>
-                  <span className="range-slider__value">{this.state.fontSize}</span>
-                </div>
-              </div>
               <div className="attribute">
                 <p>Font Weight</p>
                 <div className="range-slider">
@@ -209,6 +295,7 @@ export default class App extends Component {
             </div>
           </div>
           <div className="filters three card">
+            <div className="highlight"></div>
             <p className="filterType">Sizing</p>
             <div className="filters-container">
               <div className="attribute">
@@ -235,6 +322,7 @@ export default class App extends Component {
             </div>
           </div>
           <div className="filters three card">
+            <div className="highlight"></div>
             <p className="filterType">Border</p>
             <div className="filters-container">
               <div className="attribute">
@@ -260,35 +348,26 @@ export default class App extends Component {
               </div>              
             </div>
           </div>
-          <div className="filters four card">
+          <div className="filters three card">
+            <div className="highlight"></div>
             <p className="filterType">Color</p>
             <div className="filters-container">
               <div className="attribute">
                 <p>Background Color</p>
                 <div className="range-slider">
-                  <input className="range-slider__range" type="range" value={this.state.fontSize} onChange={(e) => this.fontSlider(e)} min="0" max="100"/>
-                  <span className="range-slider__value">{this.state.fontSize}</span>
+                <CustomColorPicker color="backgroundColor" backgroundColor={this.state.backgroundColor} handleBackgroundColorChange={this.handleBackgroundColorChange}/>
                 </div>
               </div>
               <div className="attribute">
                 <p>Text Color</p>
                 <div className="range-slider">
-                  <input className="range-slider__range" type="range" value={this.state.fontSize} onChange={(e) => this.fontSlider(e)} min="0" max="100"/>
-                  <span className="range-slider__value">{this.state.fontSize}</span>
+                <CustomColorPicker color="textColor" textColor={this.state.textColor} handleTextColorChange={this.handleTextColorChange}/>
                 </div>
               </div>
               <div className="attribute">
                 <p>Border Color</p>
                 <div className="range-slider">
-                  <input className="range-slider__range" type="range" value={this.state.fontSize} onChange={(e) => this.fontSlider(e)} min="0" max="100"/>
-                  <span className="range-slider__value">{this.state.fontSize}</span>
-                </div>
-              </div>
-              <div className="attribute">
-                <p>Opacity</p>
-                <div className="range-slider">
-                  <input className="range-slider__range" type="range" value={this.state.opacity} onChange={(e) => this.opacitySlider(e)} min="0" max="100"/>
-                  <span className="range-slider__value">{this.state.opacity}</span>
+                <CustomColorPicker color="borderColor" borderColor={this.state.borderColor} handleBorderColorChange={this.handleBorderColorChange}/>
                 </div>
               </div>
             </div>

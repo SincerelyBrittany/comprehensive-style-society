@@ -31,8 +31,19 @@
 .jsonContainer {
     text-align: left;
     overflow: auto;
+    height: 40vh;
 }
 
 .tab {
     display: inline
+}
+
+.copyButton {
+    display: inline-block;
+    border-radius: 2em;
+    box-sizing: border-box;
+    text-align: center;
+    color: #ffffff;
+    background-color: #4eb5f1;
+    border: 0
 }
