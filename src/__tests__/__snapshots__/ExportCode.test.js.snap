@@ -385,6 +385,15 @@ exports[`will check ExportCode component renders with props 1`] = `
       }
     </span>
   </code>
+  <br />
+  <span>
+    <button
+      className="copyButton"
+      onClick={[Function]}
+    >
+      Copy to clipboard
+    </button>
+  </span>
 </div>
 `;
 
@@ -761,6 +770,15 @@ exports[`will check ExportCode component renders without props 1`] = `
       }
     </span>
   </code>
+  <br />
+  <span>
+    <button
+      className="copyButton"
+      onClick={[Function]}
+    >
+      Copy to clipboard
+    </button>
+  </span>
 </div>
 `;
 
