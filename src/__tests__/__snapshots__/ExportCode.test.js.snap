@@ -1,19 +1,24 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders as an anchor when no page is set 1`] = `
-<div>
+exports[`will check ExportCode component renders with props 1`] = `
+<div
+  className="jsonContainer"
+>
+  <p>
+    Button HTML
+  </p>
   <code
-    class="language"
+    className="language"
     id="html-code"
   >
     <span
-      class="token tag"
+      className="token tag"
     >
       <span
-        class="token tag"
+        className="token tag"
       >
         <span
-          class="token punctuation"
+          className="token punctuation"
         >
           &lt;
         </span>
@@ -21,111 +26,361 @@ exports[`renders as an anchor when no page is set 1`] = `
       </span>
        
       <span
-        class="token attr-name"
+        className="token attr-name"
       >
         href
       </span>
       <span
-        class="token attr-value"
+        className="token attr-value"
       >
         <span
-          class="token punctuation"
+          className="token punctuation"
         >
           ="
         </span>
         #
         <span
-          class="token punctuation"
+          className="token punctuation"
         >
           "
         </span>
       </span>
        
       <span
-        class="token attr-name"
+        className="token attr-name"
       >
         class
       </span>
       <span
-        class="token attr-value"
+        className="token attr-value"
       >
         <span
-          class="token punctuation"
+          className="token punctuation"
         >
           ="
         </span>
         myButton
         <span
-          class="token punctuation"
+          className="token punctuation"
         >
           "
         </span>
       </span>
       <span
-        class="token punctuation"
+        className="token punctuation"
       >
         &gt;
       </span>
     </span>
     BUTTON
     <span
-      class="token tag"
+      className="token tag"
     >
       <span
-        class="token tag"
+        className="token tag"
       >
         <span
-          class="token punctuation"
+          className="token punctuation"
         >
           &lt;/
         </span>
         a
       </span>
       <span
-        class="token punctuation"
+        className="token punctuation"
       >
         &gt;
       </span>
     </span>
   </code>
   <br />
+  <p>
+    Button CSS
+  </p>
   <code
-    class="language"
+    className="language"
     id="css-code"
   >
     <span
-      class="token selector"
+      className="token selector"
     >
       .
       myButton
        
     </span>
     <span
-      class="token punctuation"
+      className="token punctuation"
     >
       {
     </span>
     <br />
+    <pre
+      className="tab"
+    >
+         
+    </pre>
     <span
-      class="token property"
+      className="token property"
     >
       font-size
     </span>
     <span
-      class="token punctuation"
+      className="token punctuation"
     >
       :
     </span>
      
     16
     <span
-      class="token punctuation"
+      className="token punctuation"
+    >
+      ;
+    </span>
+    <br />
+    <pre
+      className="tab"
+    >
+         
+    </pre>
+    <span
+      className="token property"
+    >
+      width
+    </span>
+    <span
+      className="token punctuation"
+    >
+      :
+    </span>
+     
+    150
+    px
+    <span
+      className="token punctuation"
+    >
+      ;
+    </span>
+    <br />
+    <pre
+      className="tab"
+    >
+         
+    </pre>
+    <span
+      className="token property"
+    >
+      height
+    </span>
+    <span
+      className="token punctuation"
+    >
+      :
+    </span>
+     
+    100
+    px
+    <span
+      className="token punctuation"
+    >
+      ;
+    </span>
+    <br />
+    <pre
+      className="tab"
+    >
+         
+    </pre>
+    <span
+      className="token property"
+    >
+      padding
+    </span>
+    <span
+      className="token punctuation"
+    >
+      :
+    </span>
+     
+    3
+    px
+    <span
+      className="token punctuation"
+    >
+      ;
+    </span>
+    <br />
+    <pre
+      className="tab"
+    >
+         
+    </pre>
+    <span
+      className="token property"
+    >
+      border-width
+    </span>
+    <span
+      className="token punctuation"
+    >
+      :
+    </span>
+     
+    1
+    px
+    <span
+      className="token punctuation"
+    >
+      ;
+    </span>
+    <br />
+    <pre
+      className="tab"
+    >
+         
+    </pre>
+    <span
+      className="token property"
+    >
+      border-radius
+    </span>
+    <span
+      className="token punctuation"
+    >
+      :
+    </span>
+     
+    0
+    px
+    <span
+      className="token punctuation"
+    >
+      ;
+    </span>
+    <br />
+    <pre
+      className="tab"
+    >
+         
+    </pre>
+    <span
+      className="token property"
+    >
+      box-shadow
+    </span>
+    <span
+      className="token punctuation"
+    >
+      :
+    </span>
+     0 0 
+    0
+    px 
+    0
+    px rgba(0,0,0,0.2)
+    <span
+      className="token punctuation"
+    >
+      ;
+    </span>
+    <br />
+    <pre
+      className="tab"
+    >
+         
+    </pre>
+    <span
+      className="token property"
+    >
+      color
+    </span>
+    <span
+      className="token punctuation"
+    >
+      :
+    </span>
+     
+    0
+    px
+    <span
+      className="token punctuation"
+    >
+      ;
+    </span>
+    <br />
+    <pre
+      className="tab"
+    >
+         
+    </pre>
+    <span
+      className="token property"
+    >
+      background-color
+    </span>
+    <span
+      className="token punctuation"
+    >
+      :
+    </span>
+     
+    0
+    px
+    <span
+      className="token punctuation"
+    >
+      ;
+    </span>
+    <br />
+    <pre
+      className="tab"
+    >
+         
+    </pre>
+    <span
+      className="token property"
+    >
+      border-color
+    </span>
+    <span
+      className="token punctuation"
+    >
+      :
+    </span>
+     
+    0
+    px
+    <span
+      className="token punctuation"
+    >
+      ;
+    </span>
+    <br />
+    <pre
+      className="tab"
+    >
+         
+    </pre>
+    <span
+      className="token property"
+    >
+      opacity
+    </span>
+    <span
+      className="token punctuation"
+    >
+      :
+    </span>
+     
+    0
+    px
+    <span
+      className="token punctuation"
     >
       ;
     </span>
     <br />
     <span
-      class="token punctuation"
+      className="token punctuation"
     >
       }
     </span>
@@ -133,20 +388,25 @@ exports[`renders as an anchor when no page is set 1`] = `
 </div>
 `;
 
-exports[`will check ExportCode component renders 1`] = `
-<div>
+exports[`will check ExportCode component renders without props 1`] = `
+<div
+  className="jsonContainer"
+>
+  <p>
+    Button HTML
+  </p>
   <code
-    class="language"
+    className="language"
     id="html-code"
   >
     <span
-      class="token tag"
+      className="token tag"
     >
       <span
-        class="token tag"
+        className="token tag"
       >
         <span
-          class="token punctuation"
+          className="token punctuation"
         >
           &lt;
         </span>
@@ -154,110 +414,349 @@ exports[`will check ExportCode component renders 1`] = `
       </span>
        
       <span
-        class="token attr-name"
+        className="token attr-name"
       >
         href
       </span>
       <span
-        class="token attr-value"
+        className="token attr-value"
       >
         <span
-          class="token punctuation"
+          className="token punctuation"
         >
           ="
         </span>
         #
         <span
-          class="token punctuation"
+          className="token punctuation"
         >
           "
         </span>
       </span>
        
       <span
-        class="token attr-name"
+        className="token attr-name"
       >
         class
       </span>
       <span
-        class="token attr-value"
+        className="token attr-value"
       >
         <span
-          class="token punctuation"
+          className="token punctuation"
         >
           ="
         </span>
         myButton
         <span
-          class="token punctuation"
+          className="token punctuation"
         >
           "
         </span>
       </span>
       <span
-        class="token punctuation"
+        className="token punctuation"
       >
         &gt;
       </span>
     </span>
     BUTTON
     <span
-      class="token tag"
+      className="token tag"
     >
       <span
-        class="token tag"
+        className="token tag"
       >
         <span
-          class="token punctuation"
+          className="token punctuation"
         >
           &lt;/
         </span>
         a
       </span>
       <span
-        class="token punctuation"
+        className="token punctuation"
       >
         &gt;
       </span>
     </span>
   </code>
   <br />
+  <p>
+    Button CSS
+  </p>
   <code
-    class="language"
+    className="language"
     id="css-code"
   >
     <span
-      class="token selector"
+      className="token selector"
     >
       .
       myButton
        
     </span>
     <span
-      class="token punctuation"
+      className="token punctuation"
     >
       {
     </span>
     <br />
+    <pre
+      className="tab"
+    >
+         
+    </pre>
     <span
-      class="token property"
+      className="token property"
     >
       font-size
     </span>
     <span
-      class="token punctuation"
+      className="token punctuation"
     >
       :
     </span>
      
     <span
-      class="token punctuation"
+      className="token punctuation"
+    >
+      ;
+    </span>
+    <br />
+    <pre
+      className="tab"
+    >
+         
+    </pre>
+    <span
+      className="token property"
+    >
+      width
+    </span>
+    <span
+      className="token punctuation"
+    >
+      :
+    </span>
+     
+    px
+    <span
+      className="token punctuation"
+    >
+      ;
+    </span>
+    <br />
+    <pre
+      className="tab"
+    >
+         
+    </pre>
+    <span
+      className="token property"
+    >
+      height
+    </span>
+    <span
+      className="token punctuation"
+    >
+      :
+    </span>
+     
+    px
+    <span
+      className="token punctuation"
+    >
+      ;
+    </span>
+    <br />
+    <pre
+      className="tab"
+    >
+         
+    </pre>
+    <span
+      className="token property"
+    >
+      padding
+    </span>
+    <span
+      className="token punctuation"
+    >
+      :
+    </span>
+     
+    px
+    <span
+      className="token punctuation"
+    >
+      ;
+    </span>
+    <br />
+    <pre
+      className="tab"
+    >
+         
+    </pre>
+    <span
+      className="token property"
+    >
+      border-width
+    </span>
+    <span
+      className="token punctuation"
+    >
+      :
+    </span>
+     
+    px
+    <span
+      className="token punctuation"
+    >
+      ;
+    </span>
+    <br />
+    <pre
+      className="tab"
+    >
+         
+    </pre>
+    <span
+      className="token property"
+    >
+      border-radius
+    </span>
+    <span
+      className="token punctuation"
+    >
+      :
+    </span>
+     
+    px
+    <span
+      className="token punctuation"
+    >
+      ;
+    </span>
+    <br />
+    <pre
+      className="tab"
+    >
+         
+    </pre>
+    <span
+      className="token property"
+    >
+      box-shadow
+    </span>
+    <span
+      className="token punctuation"
+    >
+      :
+    </span>
+     0 0 
+    px 
+    px rgba(0,0,0,0.2)
+    <span
+      className="token punctuation"
+    >
+      ;
+    </span>
+    <br />
+    <pre
+      className="tab"
+    >
+         
+    </pre>
+    <span
+      className="token property"
+    >
+      color
+    </span>
+    <span
+      className="token punctuation"
+    >
+      :
+    </span>
+     
+    px
+    <span
+      className="token punctuation"
+    >
+      ;
+    </span>
+    <br />
+    <pre
+      className="tab"
+    >
+         
+    </pre>
+    <span
+      className="token property"
+    >
+      background-color
+    </span>
+    <span
+      className="token punctuation"
+    >
+      :
+    </span>
+     
+    px
+    <span
+      className="token punctuation"
+    >
+      ;
+    </span>
+    <br />
+    <pre
+      className="tab"
+    >
+         
+    </pre>
+    <span
+      className="token property"
+    >
+      border-color
+    </span>
+    <span
+      className="token punctuation"
+    >
+      :
+    </span>
+     
+    px
+    <span
+      className="token punctuation"
+    >
+      ;
+    </span>
+    <br />
+    <pre
+      className="tab"
+    >
+         
+    </pre>
+    <span
+      className="token property"
+    >
+      opacity
+    </span>
+    <span
+      className="token punctuation"
+    >
+      :
+    </span>
+     
+    px
+    <span
+      className="token punctuation"
     >
       ;
     </span>
     <br />
     <span
-      class="token punctuation"
+      className="token punctuation"
     >
       }
     </span>
@@ -265,8 +764,20 @@ exports[`will check ExportCode component renders 1`] = `
 </div>
 `;
 
-exports[`will check the font-size attribute 1`] = `
+exports[`will check the types of props passed into ExportCode 1`] = `
 Object {
+  "backgroundColor": Any<String>,
+  "borderColor": Any<String>,
+  "borderRadius": Any<Number>,
+  "borderWidth": Any<Number>,
+  "fontEmphasis": Any<Number>,
   "fontSize": Any<Number>,
+  "height": Any<Number>,
+  "opacity": Any<Number>,
+  "padding": Any<Number>,
+  "shadow": Any<Number>,
+  "showCode": Any<Boolean>,
+  "textColor": Any<String>,
+  "width": Any<Number>,
 }
 `;

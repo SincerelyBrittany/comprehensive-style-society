@@ -3,15 +3,6 @@ import '../css/ExportCode.scss';
 export default class ExportCode extends React.Component {
     constructor(props) {
         super(props);
-        // const [copySuccess, setCopySuccess] = useState('');
-        // const copyToClipBoard = async copyMe => {
-        //     try {
-        //       await navigator.clipboard.writeText(copyMe);
-        //       setCopySuccess('Copied!');
-        //     } catch (err) {
-        //       setCopySuccess('Failed to copy!');
-        //     }
-        // };
     }
 
     render() {
@@ -137,8 +128,6 @@ export default class ExportCode extends React.Component {
                     
                     <span className="token punctuation">&#125;</span>
                 </code>
-                {/* <button onClick={this.copyToClipboard}>Copy CSS</button>
-                {this.state.copySuccess} */}
             </div>
         );
     }
