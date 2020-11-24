@@ -144,7 +144,7 @@ export default class ExportCode extends React.Component {
                 <br></br>
                     <span>
                     <CopyToClipboard onCopy={this.onCopy} text={this.state.code}>
-                        <button>Copy to clipboard</button>
+                        <button className="copyButton">Copy to clipboard</button>
                     </CopyToClipboard>
                     {this.state.copied ? <span style={{color: 'red'}}> Copied.</span> : null}
                 </span>
