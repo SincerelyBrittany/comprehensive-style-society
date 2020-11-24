@@ -107,6 +107,11 @@ export default class App extends Component {
   };
 
   render() {
+    var buttonText = "Show CSS";
+    if (this.state.showCode) {
+      buttonText = "Hide CSS"
+    }
+
     return (
       <div className="App">
         <div className="column left-column">
@@ -251,9 +256,9 @@ export default class App extends Component {
             </button>
           </div>
           <div className="json-window card">
-            <button className="showButton" onClick={this.showCode}>
-                Show CSS
-            </button>
+            <div className="showButton" onClick={this.showCode}>
+                {buttonText}
+            </div>
             {this.state.showCode ? <ExportCode fontSize={this.state.fontSize} 
             fontFamily = {this.state.fontFamily}
             fontEmphasis = {this.state.fontEmphasis}
