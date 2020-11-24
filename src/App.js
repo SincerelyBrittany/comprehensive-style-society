@@ -24,9 +24,9 @@ export default class App extends Component {
       opacity: 0,
       showCode: false
     }
-    this._showCode = this._showCode.bind(this);
+    this.showCode = this.showCode.bind(this);
   }
-  _showCode() {
+  showCode() {
     this.setState(state => ({
         showCode: !state.showCode
     }));
@@ -163,7 +163,7 @@ export default class App extends Component {
             </button>
           </div>
           <div className="json-window card">
-            <button onClick={this._showCode}>
+            <button onClick={this.showCode}>
                 Show CSS
             </button>
             {this.state.showCode ? <ExportCode fontSize={this.state.fontSize} 
