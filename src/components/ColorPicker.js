@@ -42,6 +42,16 @@ class ColorPicker extends React.Component {
     }
   }
 
+  handlebackground = () => {
+    if(this.props.color === "backgroundColor"){
+      return `${this.props.backgroundColor.r }, ${ this.props.backgroundColor.g }, ${ this.props.backgroundColor.b }, ${ this.props.backgroundColor.a }`
+    } else if (this.props.color === "textColor"){
+      return `${this.props.textColor.r }, ${ this.props.textColor.g }, ${ this.props.textColor.b }, ${ this.props.textColor.a }`
+    } else if (this.props.color === "borderColor"){
+      return `${this.props.borderColor.r }, ${ this.props.borderColor.g }, ${ this.props.borderColor.b }, ${ this.props.borderColor.a }`
+    }
+  }
+
   render() {
 
     const styles = reactCSS({
@@ -50,7 +60,7 @@ class ColorPicker extends React.Component {
           width: '36px',
           height: '14px',
           borderRadius: '2px',
-          background: `rgba(${ this.state.color.r }, ${ this.state.color.g }, ${ this.state.color.b }, ${ this.state.color.a })`,
+          background: `rgba(${ this.handlebackground() })`,
         },
         swatch: {
           padding: '5px',

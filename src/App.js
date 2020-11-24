@@ -92,18 +92,18 @@ export default class App extends Component {
 
   handleBackgroundColorChange = (color) => {
     this.setState({ backgroundColor: color.rgb })
-    document.getElementById('generatedButton').style.backgroundColor = "rgb(" + color.rgb.r + "," + color.rgb.g + "," + color.rgb.b + ")"
+    document.getElementById('generatedButton').style.backgroundColor = "rgba(" + color.rgb.r + "," + color.rgb.g + "," + color.rgb.b + "," + color.rgb.a + ")"
   };
 
   handleTextColorChange = (color) => {
     this.setState({ textColor: color.rgb })
-    document.getElementById('generatedButton').style.color = "rgb(" + color.rgb.r + "," + color.rgb.g + "," + color.rgb.b + ")"
+    document.getElementById('generatedButton').style.color = "rgba(" + color.rgb.r + "," + color.rgb.g + "," + color.rgb.b + "," + color.rgb.a + ")"
   };
 
   handleBorderColorChange = (color) => {
     console.log("in the border", color)
     this.setState({ borderColor: color.rgb })
-    document.getElementById('generatedButton').style.borderColor = "rgb(" + color.rgb.r + "," + color.rgb.g + "," + color.rgb.b + ")"
+    document.getElementById('generatedButton').style.borderColor = "rgba(" + color.rgb.r + "," + color.rgb.g + "," + color.rgb.b + "," + color.rgb.a + ")"
   };
 
   render() {
