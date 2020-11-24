@@ -282,13 +282,6 @@ export default class App extends Component {
                 <CustomColorPicker color="borderColor" borderColor={this.state.borderColor} handleBorderColorChange={this.handleBorderColorChange}/>
                 </div>
               </div>
-              <div className="attribute">
-                <p>Opacity</p>
-                <div className="range-slider">
-                  <input className="range-slider__range" type="range" value={this.state.opacity} onChange={(e) => this.opacitySlider(e)} min="0" max="100"/>
-                  <span className="range-slider__value">{this.state.opacity}</span>
-                </div>
-              </div>
             </div>
           </div>
         </div>
