@@ -1,71 +1,189 @@
-# Getting Started with Create React App
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/SincerelyBrittany/comprehensive-style-society">
+    <img src="" alt="Logo">
+  </a>
 
-## Available Scripts
+  <h3 align="center">Comprehensive Style Society AKA CSS</h3>
 
-In the project directory, you can run:
+  <p align="center">
+    This is the fourth project/sprint built for the MLH Explorer Fellowship, built by <a href=""> Nathan </a> , <a href=""> Rupa </a>,<a href="https://github.com/SincerelyBrittany"> Brittany </a>, and <a href="https://github.com/n-mathis">NaNa </a>. The theme will be Developer Tools & Productivity. We decided to create a css buton generator to help developers easily export css code. 
+    <br />
+    <a href="https://github.com/SincerelyBrittany/comprehensive-style-society"><strong>Explore the docs »</strong></a>
+    <br />
+    <!-- <br />
+     -->
+    <a href="https://github.com/SincerelyBrittany/comprehensive-style-society/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/SincerelyBrittany/comprehensive-style-society/issues">Request Feature</a>
+  </p>
+</p>
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
 
-### `yarn test`
+* [About the Project](#about-the-project)
+  * [Built With](#built-with)
+* [Getting Started](#getting-started)
+  * [Prerequisites](#prerequisites)
+  * [Installation](#installation)
+<!-- * [Usage](#usage) -->
+* [Roadmap](#roadmap)
+* [Contributing](#contributing)
+* [License](#license)
+* [Contact](#contact)
+* [Acknowledgements](#acknowledgements)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+### Built With
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+* [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* [Jest](https://jestjs.io/)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<!-- GETTING STARTED -->
+## Getting Started
 
-## Learn More
+To get the project up and running locally on your computer please follow the installation guide below. 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Prerequisites
+You will need <a href="https://www.npmjs.com/package/npm-latest">npm</a> to get this application running. 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* npm
+```sh
+npm install npm@latest -g
+```
 
-### Code Splitting
+### Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Clone the repo
+```sh
+git clone https://github.com/https://github.com/SincerelyBrittany/comprehensive-style-society.git
+```
+2. Install NPM packages
+```sh
+npm install
+```
+3. Start the program
+```sh
+npm start
+```
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<!-- USAGE EXAMPLES -->
+<!-- ## Usage -->
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<!-- ROADMAP -->
+## Roadmap
 
-### Advanced Configuration
+See the [open issues](https://github.com/SincerelyBrittany/comprehensive-style-society/issues) for a list of proposed features (and known issues).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<!-- CONTRIBUTING -->
+## Contributing
 
-### Deployment
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-### `yarn build` fails to minify
+<!-- LICENSE -->
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# comprehensive-style-society
+Distributed under the MIT License. See `LICENSE` for more information.
+
+
+<!-- CONTACT -->
+## Contact
+Connect/Follow us:
+
+Brittany:
+[![Twitter][brittany-twitter-shield]][brittany-twitter-url]
+[![Linkedin][linkedin-shield]][brittany-linkedin-url]
+[![Dev.to][dev-to-shield]][brittany-dev-to-url]
+[![Github.com][brittany-github-shield]][brittany-github-url]
+
+
+Nathan:
+
+
+NaNa:
+[![Twitter][nana-twitter-shield]][nana-twitter-url]
+[![Linkedin][linkedin-shield]][nana-linkedin-url]
+[![Dev.to][dev-to-shield]][nana-dev-to-url]
+[![Github.com][nana-github-shield]][nana-github-url]
+
+Rupa: 
+
+
+
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+* [MLH-Fellowship](https://fellowship.mlh.io/)
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/SincerelyBrittany/comprehensive-style-society.svg?style=flat-square
+[contributors-url]: https://github.com/SincerelyBrittany/comprehensive-style-society/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/SincerelyBrittany/comprehensive-style-society.svg?style=flat-square
+[forks-url]: https://github.com/SincerelyBrittany/comprehensive-style-society/network/members
+[stars-shield]: https://img.shields.io/github/stars/SincerelyBrittany/comprehensive-style-society.svg?style=flat-square
+[stars-url]: https://github.com/SincerelyBrittany/comprehensive-style-society/stargazers
+[issues-shield]: https://img.shields.io/github/issues/SincerelyBrittany/comprehensive-style-society.svg?style=flat-square
+[issues-url]: https://github.com/SincerelyBrittany/comprehensive-style-society/issues
+[license-shield]: https://img.shields.io/github/license/SincerelyBrittany/comprehensive-style-society.svg?style=flat-square
+[license-url]: https://github.com/SincerelyBrittany/comprehensive-style-society/blob/readme/LICENSE
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
+[dev-to-shield]:https://img.shields.io/badge/-Dev.to-black.svg?style=flat-square&logo=dev.to&colorB=555
+[product-screenshot]: https://github.com/SincerelyBrittany/comprehensive-style-society/blob/readme/public/sample-gif.gif
+
+<!-- Brittany Social Media  -->
+[brittany-linkedin-url]: https://www.linkedin.com/in/sincerelybrittany/
+[brittany-twitter-shield]:https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FSincerelyBrittt
+[brittany-twitter-url]: https://twitter.com/SincerelyBrittt
+[brittany-github-shield]: https://img.shields.io/github/followers/sincerelybrittany?label=Follow%20on%20Github&style=social
+[brittany-github-url]: https://github.com/SincerelyBrittany
+[brittany-dev-to-url]: https://dev.to/sincerelybrittany
+
+<!-- nathan Social Media  -->
+[nathan-linkedin-url]: https://www.linkedin.com/in/username/
+[nathan-twitter-shield]:https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Fusername
+[nathan-twitter-url]: https://twitter.com/usernmae
+[nathan-github-shield]: https://img.shields.io/github/followers/username?label=Follow%20on%20Github&style=social
+[nathan-dev-to-url]: https://dev.to/username
+
+<!-- NaNa Social Media  -->
+[nana-linkedin-url]: https://www.linkedin.com/in/nana-m-645737aa/
+[nana-twitter-shield]:https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Fnana_this
+[nana-twitter-url]: https://twitter.com/nana_this
+[nana-github-shield]: https://img.shields.io/github/followers/n-mathis?label=Follow%20on%20Github&style=social
+[nana-github-url]: https://github.com/n-mathis
+[nana-dev-to-url]: https://dev.to/nmathis
+
+<!-- Rupa Social Media  -->
+[rupa-linkedin-url]: https://www.linkedin.com/in/username/
+[rupa-twitter-shield]:https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Fusername
+[rupa-twitter-url]: https://twitter.com/usernmae
+[rupa-github-shield]: https://img.shields.io/github/followers/username?label=Follow%20on%20Github&style=social
+[rupa-dev-to-url]: https://dev.to/username
