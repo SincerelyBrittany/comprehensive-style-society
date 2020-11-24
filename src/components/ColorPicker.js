@@ -22,15 +22,25 @@ class ColorPicker extends React.Component {
   };
 
 
-  handleItems = () => {
-    console.log(this.props.color, "this is props color")
+  handleColor = () => {
     if(this.props.color === "backgroundColor"){
-      return <SketchPicker color={ this.props.backgroundColor } onChange={ this.props.handleBackgroundColorChange } /> 
+      return this.props.backgroundColor
     } else if (this.props.color === "textColor"){
-      return <SketchPicker textColor={ this.props.textColor } onChange={ this.props.handleTextColorChange } /> 
-    } else if(this.props.color === "borderColor")
-    return <SketchPicker borderColor={ this.props.borderColor } onChange={ this.props.handleBorderColorChange } /> 
-  };
+      return this.props.textColor 
+    } else if (this.props.color === "borderColor"){
+      return this.props.borderColor 
+    }
+  }
+
+  handleOnChange = () => {
+    if(this.props.color === "backgroundColor"){
+      return this.props.handleBackgroundColorChange
+    } else if (this.props.color === "textColor"){
+      return this.props.handleTextColorChange
+    } else if (this.props.color === "borderColor"){
+      return this.props.handleBorderColorChange
+    }
+  }
 
   render() {
 
@@ -63,10 +73,8 @@ class ColorPicker extends React.Component {
           <div style={ styles.color } />
         </div>
         { this.state.displayColorPicker ? <div style={ styles.popover }>
-          <div style={ styles.cover } onClick={ this.handleClose }/>
-          {this.handleItems()} 
-         
-          
+          <div style={ styles.cover } onClick={ this.handleClose }/>         
+          <SketchPicker color={this.handleColor()} onChange={this.handleOnChange()}/>
         </div> : null }
 
       </div>
