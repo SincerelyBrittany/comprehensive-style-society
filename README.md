@@ -14,7 +14,7 @@
   <h3 align="center">Comprehensive Style Society AKA CSS</h3>
 
   <p align="center">
-    This is the fourth project/sprint built for the MLH Explorer Fellowship, built by <a href=""> Nathan </a> , <a href=""> Rupa </a>,<a href="https://github.com/SincerelyBrittany"> Brittany </a>, and <a href="https://github.com/n-mathis">NaNa </a>. The theme will be Developer Tools & Productivity. We decided to create a css buton generator to help developers easily export css code. 
+    This is the fourth project/sprint built for the MLH Explorer Fellowship, built by <a href="https://github.com/nathanlm511"> Nathan </a> , <a href="https://github.com/RupaDuggirala"> Rupa Duggirala</a>,<a href="https://github.com/SincerelyBrittany"> Brittany </a>, and <a href="https://github.com/n-mathis">NaNa </a>. The theme will be Developer Tools & Productivity. We decided to create a css buton generator to help developers easily export css code. 
     <br />
     <a href="https://github.com/SincerelyBrittany/comprehensive-style-society"><strong>Explore the docs »</strong></a>
     <br />
