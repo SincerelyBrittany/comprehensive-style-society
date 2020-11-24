@@ -69,6 +69,14 @@ export default class ExportCode extends React.Component {
                     <span className="token punctuation">;</span>
                     <br/>
 
+
+                    <pre className="tab">   </pre>
+                    <span className="token property">font-weight</span>
+                    <span className="token punctuation">:</span>
+                    &nbsp;{this.props.fontEmphasis}
+                    <span className="token punctuation">;</span>
+                    <br/>
+
                     <pre className="tab">   </pre>
                     <span className="token property">width</span>
                     <span className="token punctuation">:</span>
