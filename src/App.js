@@ -84,18 +84,18 @@ export default class App extends Component {
             <div className="preset-container">
               <div className="preset-row">
                 <div className="preset">
-                  <button>click</button>
+                  <button id="normal-effect">Button</button>
                 </div>
                 <div className="preset">
-                  <button>click</button>
+                  <button id="opacity-effect">Button</button>
                 </div>
               </div>
               <div className="preset-row">
                 <div className="preset">
-                  <button>click</button>
+                  <button id="rounded-corners1-effect">Button</button>
                 </div>
                 <div className="preset">
-                  <button>click</button>
+                  <button id="rounded-corners2-effect">Button</button>
                 </div>
               </div>
             </div>
@@ -105,18 +105,50 @@ export default class App extends Component {
             <div className="preset-container">
               <div className="preset-row">
                 <div className="preset">
-                  <button>click</button>
+                  <button id="thin-border-effect">Button</button>
                 </div>
                 <div className="preset">
-                  <button>click</button>
+                  <button id="thick-border-effect">Button</button>
                 </div>
               </div>
               <div className="preset-row">
                 <div className="preset">
-                  <button>click</button>
+                  <button id="hover-normal-fill-effect">Button</button>
                 </div>
                 <div className="preset">
-                  <button>click</button>
+                  <button id="hover-opaque-fill-effect">Button</button>
+                </div>
+              </div>
+              <div className="preset-row">
+                <div className="preset">
+                  <button id="shadow-effect">Button</button>
+                </div>
+                <div className="preset">
+                  <button id="hover-shadow-effect">Button</button>
+                </div>
+              </div>
+              <div className="preset-row">
+                <div className="preset">
+                  <button id="hover-grow-effect">Button</button>
+                </div>
+                <div className="preset">
+                  <button id="hover-shrink-effect">Button</button>
+                </div>
+              </div>
+              <div className="preset-row">
+                <div className="preset">
+                  <button id="hover-slide-right-effect">Button</button>
+                </div>
+                <div className="preset">
+                  <button id="hover-slide-left-effect">Button</button>
+                </div>
+              </div>
+              <div className="preset-row">
+                <div className="preset">
+                  <button id="hover-rotate-right-effect">Button</button>
+                </div>
+                <div className="preset">
+                  <button id="hover-rotate-left-effect">Button</button>
                 </div>
               </div>
             </div>

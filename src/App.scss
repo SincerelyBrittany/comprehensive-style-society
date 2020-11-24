@@ -145,3 +145,182 @@
   font-weight: 700;
   margin-bottom: 0;
 }
+
+#normal-effect {
+  background-color: #14FB9D;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#opacity-effect {
+  background-color: #450AE2;
+  opacity: 0.25;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#rounded-corners1-effect {
+  background-color: #14FB9D;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#rounded-corners2-effect {
+  background-color: #450AE2;
+  border-radius: 50%;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#thin-border-effect {
+  background-color: #F6F6F6;
+  border: 2px solid #14FB9D;
+  border-radius: 10px;
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#thick-border-effect {
+  background-color: #F6F6F6;
+  border: 6px solid #450AE2;
+  border-radius: 10px;
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#hover-normal-fill-effect {
+  background-color: #F6F6F6;
+  border: 5px solid #14FB9D;
+  border-radius: 10px;
+  color: black;
+  font-size: 16px;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+#hover-normal-fill-effect:hover {
+  background-color: #14FB9D;
+  color: white;
+}
+
+#hover-opaque-fill-effect {
+  background-color: #F6F6F6;
+  border: 5px solid #450AE2;
+  border-radius: 10px;
+  color: black;
+  font-size: 16px;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+#hover-opaque-fill-effect:hover {
+  background-color: #450AE2;
+  opacity: 0.25;
+  color: white;
+}
+
+#shadow-effect {
+  background-color: #14FB9D;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#hover-shadow-effect {
+  background-color: #450AE2;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#hover-shadow-effect:hover {
+  box-shadow: 0 16px 24px 0 rgba(0,0,0,0.28), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#hover-grow-effect {
+  background-color: #14FB9D;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+#hover-grow-effect:hover {
+  transform: scale(1.25);
+}
+
+#hover-shrink-effect {
+  background-color: #450AE2;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+#hover-shrink-effect:hover {
+  transform: scale(0.75);
+}
+
+#hover-slide-right-effect {
+  background-color: #F6F6F6;
+  border: 2px solid #14FB9D;
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+  background: linear-gradient(to left, #F6F6F6 50%, #14FB9D 50%) right;
+  background-size: 200%;
+  transition: 0.5s ease-out;
+}
+
+#hover-slide-right-effect:hover {
+  background-position: left;
+  color: white;
+}
+
+#hover-slide-left-effect {
+  background-color: #F6F6F6;
+  border: 2px solid #450AE2;
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+  background: linear-gradient(to right, #F6F6F6 50%, #450AE2 50%) left;
+  background-size: 200%;
+  transition: 0.5s ease-out;
+}
+
+#hover-slide-left-effect:hover {
+  background-position: right;
+  color: white;
+}
+
+#hover-rotate-right-effect {
+  background-color: #14FB9D;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+#hover-rotate-right-effect:hover {
+  transform: scale(1.1) rotate(6deg);
+}
+
+#hover-rotate-left-effect {
+  background-color: #450AE2;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+#hover-rotate-left-effect:hover {
+  transform: scale(1.1) rotate(-6deg);
+}
