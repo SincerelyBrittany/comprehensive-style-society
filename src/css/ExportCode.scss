@@ -25,4 +25,14 @@
 .language {
     color: black;
     font-size: 11px;
+    text-align: left;
+}
+
+.jsonContainer {
+    text-align: left;
+    overflow: auto;
+}
+
+.tab {
+    display: inline
 }
