@@ -111,6 +111,7 @@ export default class App extends Component {
       <div className="App">
         <div className="column left-column">
           <div className="presets card">
+            <div className="highlight"></div>
             <p>Basic Presets</p>
             <div className="preset-container">
               <div className="preset-row">
@@ -131,8 +132,63 @@ export default class App extends Component {
               </div>
             </div>
           </div>
-          <div className="presets card">
+          <div className="presets six card">
+            <div className="highlight"></div>
             <p>Other Presets</p>
+            <div className="preset-container">
+              <div className="preset-row">
+                <div className="preset">
+                  <button id="thin-border-effect">Button</button>
+                </div>
+                <div className="preset">
+                  <button id="thick-border-effect">Button</button>
+                </div>
+              </div>
+              <div className="preset-row">
+                <div className="preset">
+                  <button id="hover-normal-fill-effect">Button</button>
+                </div>
+                <div className="preset">
+                  <button id="hover-opaque-fill-effect">Button</button>
+                </div>
+              </div>
+              <div className="preset-row">
+                <div className="preset">
+                  <button id="shadow-effect">Button</button>
+                </div>
+                <div className="preset">
+                  <button id="hover-shadow-effect">Button</button>
+                </div>
+              </div>
+              <div className="preset-row">
+                <div className="preset">
+                  <button id="hover-grow-effect">Button</button>
+                </div>
+                <div className="preset">
+                  <button id="hover-shrink-effect">Button</button>
+                </div>
+              </div>
+              <div className="preset-row">
+                <div className="preset">
+                  <button id="hover-slide-right-effect">Button</button>
+                </div>
+                <div className="preset">
+                  <button id="hover-slide-left-effect">Button</button>
+                </div>
+              </div>
+              <div className="preset-row">
+                <div className="preset">
+                  <button id="hover-rotate-right-effect">Button</button>
+                </div>
+                <div className="preset">
+                  <button id="hover-rotate-left-effect">Button</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="presets six card">
+            <div className="highlight"></div>
+            <p>Random Presets</p>
             <div className="preset-container">
               <div className="preset-row">
                 <div className="preset">
@@ -195,7 +251,7 @@ export default class App extends Component {
             </button>
           </div>
           <div className="json-window card">
-            <button onClick={this.showCode}>
+            <button className="showButton" onClick={this.showCode}>
                 Show CSS
             </button>
             {this.state.showCode ? <ExportCode fontSize={this.state.fontSize} 
@@ -213,17 +269,11 @@ export default class App extends Component {
             backgroundColor = {this.state.backgroundColor} false/> : null }
           </div>
         </div>
-        <div className="column right-column">
-          <div className="filters three card">
+        <div className="column right-column" id="rightColumn">
+          <div className="filters two card">
+            <div className="highlight"></div>
             <p className="filterType">Font</p>
             <div className="filters-container">
-              <div className="attribute">
-                <p>Font Family</p>
-                <div className="range-slider">
-                  <input className="range-slider__range" type="range" value={this.state.fontSize} onChange={(e) => this.fontSlider(e)} min="0" max="100"/>
-                  <span className="range-slider__value">{this.state.fontSize}</span>
-                </div>
-              </div>
               <div className="attribute">
                 <p>Font Weight</p>
                 <div className="range-slider">
@@ -241,6 +291,7 @@ export default class App extends Component {
             </div>
           </div>
           <div className="filters three card">
+            <div className="highlight"></div>
             <p className="filterType">Sizing</p>
             <div className="filters-container">
               <div className="attribute">
@@ -267,6 +318,7 @@ export default class App extends Component {
             </div>
           </div>
           <div className="filters three card">
+            <div className="highlight"></div>
             <p className="filterType">Border</p>
             <div className="filters-container">
               <div className="attribute">
@@ -292,7 +344,8 @@ export default class App extends Component {
               </div>              
             </div>
           </div>
-          <div className="filters four card">
+          <div className="filters three card">
+            <div className="highlight"></div>
             <p className="filterType">Color</p>
             <div className="filters-container">
               <div className="attribute">

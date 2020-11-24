@@ -1,4 +1,5 @@
 // color schemes : https://graphicmama.com/blog/website-color-schemes/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 .App {
   text-align: center;
@@ -9,11 +10,38 @@
   background-color: #f6f6f2;
   height: 100vh;
   width: 100vw;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .title {
   text-align: center;
   font-size: 80px;
+  color: #64b3b8
+}
+
+.showButton {
+  display:inline-block;
+  padding:0.7em 1.4em;
+  margin:0 0.3em 0.3em 0;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  text-transform:uppercase;
+  font-weight:400;
+  color:#FFFFFF;
+  background-color:#3369ff;
+  box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
+  text-align:center;
+  position:relative;
+  background-color: #badfe7;
+  border: 0;
+}
+
+.highlight {
+  height: 5px;
+  width: 100%;
+  background-color: #c2edce;
+  border-radius: 5px 5px 0 0;
 }
 
 .column {
@@ -30,6 +58,8 @@
 
 .left-column {
   width: 29%;
+  overflow: auto;
+  height: 100vh;
 }
 
 .right-column {
@@ -109,12 +139,20 @@
   width: 100%
 }
 
+.two {
+  height: 38vh;
+}
+
 .four {
-  height: 55vh;
+  height: 59vh;
 }
 
 .three {
-  height: 43vh;
+  height: 48vh;
+}
+
+.six {
+  height: 51vh;
 }
 
 .filters-container {
