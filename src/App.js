@@ -231,60 +231,6 @@ export default class App extends Component {
               </div>
             </div>
           </div>
-          <div className="presets six card">
-            <div className="highlight"></div>
-            <p>Random Presets</p>
-            <div className="preset-container">
-              <div className="preset-row">
-                <div className="preset">
-                  <button id="thin-border-effect">Button</button>
-                </div>
-                <div className="preset">
-                  <button id="thick-border-effect">Button</button>
-                </div>
-              </div>
-              <div className="preset-row">
-                <div className="preset">
-                  <button id="hover-normal-fill-effect">Button</button>
-                </div>
-                <div className="preset">
-                  <button id="hover-opaque-fill-effect">Button</button>
-                </div>
-              </div>
-              <div className="preset-row">
-                <div className="preset">
-                  <button id="shadow-effect">Button</button>
-                </div>
-                <div className="preset">
-                  <button id="hover-shadow-effect">Button</button>
-                </div>
-              </div>
-              <div className="preset-row">
-                <div className="preset">
-                  <button id="hover-grow-effect">Button</button>
-                </div>
-                <div className="preset">
-                  <button id="hover-shrink-effect">Button</button>
-                </div>
-              </div>
-              <div className="preset-row">
-                <div className="preset">
-                  <button id="hover-slide-right-effect">Button</button>
-                </div>
-                <div className="preset">
-                  <button id="hover-slide-left-effect">Button</button>
-                </div>
-              </div>
-              <div className="preset-row">
-                <div className="preset">
-                  <button id="hover-rotate-right-effect">Button</button>
-                </div>
-                <div className="preset">
-                  <button id="hover-rotate-left-effect">Button</button>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
         <div className="column center-column">
           <div className="title">
