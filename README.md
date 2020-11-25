@@ -9,7 +9,7 @@
   <h1 align="center">Comprehensive Style Society AKA CSS</h1>
 
   <p align="center">
-    This is the fourth project/sprint built for the MLH Explorer Fellowship, built by <a href="https://github.com/nathanlm511"> Nathan </a>, <a href="https://github.com/RupaDuggirala"> Rupa Duggirala</a>,<a href="https://github.com/SincerelyBrittany"> Brittany</a>, and <a href="https://github.com/n-mathis">NaNa</a>.
+    This is the fourth project/sprint built for the MLH Explorer Fellowship, built by <a href="https://github.com/nathanlm511"> Nathan </a>, <a href="https://github.com/RupaDuggirala"> Rupa Duggirala</a>,<a href="https://github.com/SincerelyBrittany"> Brittany</a>, and <a href="https://github.com/n-mathis">Nana</a>.
     <br />
     <br />
     <a href="https://github.com/SincerelyBrittany/comprehensive-style-society/issues">Report Bug</a>
@@ -119,7 +119,8 @@ NaNa:
 [![Github.com][nana-github-shield]][nana-github-url]
 
 Rupa: 
-
+[![Linkedin][linkedin-shield]][rupa-linkedin-url]
+[![Github.com][nana-github-shield]][rupa-github-url]
 
 
 <!-- ACKNOWLEDGEMENTS -->
@@ -167,8 +168,9 @@ Rupa:
 [nana-dev-to-url]: https://dev.to/nmathis
 
 <!-- Rupa Social Media  -->
-[rupa-linkedin-url]: https://www.linkedin.com/in/username/
+[rupa-linkedin-url]: https://www.linkedin.com/in/rupa-duggirala/
 [rupa-twitter-shield]:https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Fusername
 [rupa-twitter-url]: https://twitter.com/usernmae
 [rupa-github-shield]: https://img.shields.io/github/followers/username?label=Follow%20on%20Github&style=social
+[rupa-github-url]:  https://github.com/RupaDuggirala
 [rupa-dev-to-url]: https://dev.to/username
