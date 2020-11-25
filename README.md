@@ -24,7 +24,7 @@
 ## Table of Contents
 
 * [About the Project](#about-the-project)
-  * [Built & Tested With](#built-&-tested-with)
+  * [Built With](#built-with)
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
@@ -44,7 +44,7 @@
 
 The theme for this project was to create something that would be helpful for Developer Tools & Productivity and we decided to create a css buton generator to help developers easily export css code. The Comprehensive Style Society is an application that allows a user to set styling to the HTML button element. There are several types of properties available for styling the button. The code generator tool can be used to create source code for top most useful CSS stylings and then the code can be copied and exported to the users personal application.
 
-### Built & Tested With
+### Built With
 
 * [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 * [Jest](https://jestjs.io/)
@@ -110,7 +110,7 @@ Brittany:
 
 
 Nathan:
-
+[![Github.com][nathan-github-shield]][nathan-github-url]
 
 NaNa:
 [![Twitter][nana-twitter-shield]][nana-twitter-url]
@@ -120,7 +120,7 @@ NaNa:
 
 Rupa: 
 [![Linkedin][linkedin-shield]][rupa-linkedin-url]
-[![Github.com][nana-github-shield]][rupa-github-url]
+[![Github.com][rupa-github-shield]][rupa-github-url]
 
 
 <!-- ACKNOWLEDGEMENTS -->
@@ -156,7 +156,8 @@ Rupa:
 [nathan-linkedin-url]: https://www.linkedin.com/in/username/
 [nathan-twitter-shield]:https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Fusername
 [nathan-twitter-url]: https://twitter.com/usernmae
-[nathan-github-shield]: https://img.shields.io/github/followers/username?label=Follow%20on%20Github&style=social
+[nathan-github-shield]: https://img.shields.io/github/followers/nathanlm511?label=Follow%20on%20Github&style=social
+[nathan-github-url]: https://github.com/nathanlm511
 [nathan-dev-to-url]: https://dev.to/username
 
 <!-- NaNa Social Media  -->
@@ -171,6 +172,6 @@ Rupa:
 [rupa-linkedin-url]: https://www.linkedin.com/in/rupa-duggirala/
 [rupa-twitter-shield]:https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Fusername
 [rupa-twitter-url]: https://twitter.com/usernmae
-[rupa-github-shield]: https://img.shields.io/github/followers/username?label=Follow%20on%20Github&style=social
+[rupa-github-shield]: https://img.shields.io/github/followers/RupaDuggirala?label=Follow%20on%20Github&style=social
 [rupa-github-url]:  https://github.com/RupaDuggirala
 [rupa-dev-to-url]: https://dev.to/username
