@@ -9,7 +9,7 @@
   <h1 align="center">Comprehensive Style Society AKA CSS</h1>
 
   <p align="center">
-    This is the fourth project/sprint built for the MLH Explorer Fellowship, built by <a href="https://github.com/nathanlm511"> Nathan </a>, <a href="https://github.com/RupaDuggirala"> Rupa Duggirala</a>,<a href="https://github.com/SincerelyBrittany"> Brittany</a>, and <a href="https://github.com/n-mathis">Nana</a>.
+    This is the fourth project/sprint built for the MLH Explorer Fellowship, built by <a href="https://github.com/nathanlm511"> Nathan</a>, <a href="https://github.com/RupaDuggirala"> Rupa</a>,<a href="https://github.com/SincerelyBrittany"> Brittany</a>, and <a href="https://github.com/n-mathis">Nana</a>.
     <br />
     <br />
     <a href="https://github.com/SincerelyBrittany/comprehensive-style-society/issues">Report Bug</a>
@@ -42,7 +42,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://github.com/SincerelyBrittany/comprehensive-style-society/blob/readme/public/css.gif)
 
-The theme for this project was to create something that would be helpful for Developer Tools & Productivity and we decided to create a css buton generator to help developers easily export css code. The Comprehensive Style Society is an application that allows a user to set styling to the HTML button element. There are several types of properties available for styling the button. The code generator tool can be used to create source code for top most useful CSS stylings and then the code can be copied and exported to the users personal application.
+The theme for this project was to create something that would be helpful for Developer Tools & Productivity -- so we decided to create a CSS buton generator to help developers easily export CSS code! The Comprehensive Style Society (aka CSS) is an application that allows a user to set customized styling to HTML button elements. We've created several types of properties for styling the button. The code generator tool can be used to create source code for the most useful CSS stylings; the code of the finalized button can be copied and exported to the user's personal application.
 
 ### Built With
 
