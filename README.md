@@ -4,12 +4,14 @@
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 
+![comprehensive-style-society](https://socialify.git.ci/SincerelyBrittany/comprehensive-style-society/image?description=1&forks=1&issues=1&language=1&pulls=1&stargazers=1&theme=Light)
+
 <!-- PROJECT LOGO -->
 <br />
-<p align="center">
+<!-- <p align="center">
   <a href="https://github.com/SincerelyBrittany/comprehensive-style-society">
     <img src="" alt="Logo">
-  </a>
+  </a> -->
 
   <h3 align="center">Comprehensive Style Society AKA CSS</h3>
 
