@@ -139,7 +139,7 @@ Rupa:
 [issues-shield]: https://img.shields.io/github/issues/SincerelyBrittany/comprehensive-style-society.svg?style=flat-square
 [issues-url]: https://github.com/SincerelyBrittany/comprehensive-style-society/issues
 [license-shield]: https://img.shields.io/github/license/SincerelyBrittany/comprehensive-style-society.svg?style=flat-square
-[license-url]: https://github.com/SincerelyBrittany/comprehensive-style-society/blob/readme/LICENSE
+[license-url]: https://github.com/SincerelyBrittany/comprehensive-style-society/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [dev-to-shield]:https://img.shields.io/badge/-Dev.to-black.svg?style=flat-square&logo=dev.to&colorB=555
 [product-screenshot]: https://github.com/SincerelyBrittany/comprehensive-style-society/blob/readme/public/css.gif
