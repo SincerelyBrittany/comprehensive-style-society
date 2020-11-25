@@ -4,24 +4,14 @@
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 
-![comprehensive-style-society](https://socialify.git.ci/SincerelyBrittany/comprehensive-style-society/image?description=1&forks=1&issues=1&language=1&pulls=1&stargazers=1&theme=Light)
+![comprehensive-style-society](https://socialify.git.ci/SincerelyBrittany/comprehensive-style-society/image?description=1&language=1&theme=Light)
 
-<!-- PROJECT LOGO -->
-<br />
-<!-- <p align="center">
-  <a href="https://github.com/SincerelyBrittany/comprehensive-style-society">
-    <img src="" alt="Logo">
-  </a> -->
-
-  <h3 align="center">Comprehensive Style Society AKA CSS</h3>
+  <h1 align="center">Comprehensive Style Society AKA CSS</h1>
 
   <p align="center">
-    This is the fourth project/sprint built for the MLH Explorer Fellowship, built by <a href="https://github.com/nathanlm511"> Nathan </a> , <a href="https://github.com/RupaDuggirala"> Rupa Duggirala</a>,<a href="https://github.com/SincerelyBrittany"> Brittany </a>, and <a href="https://github.com/n-mathis">NaNa </a>. The theme will be Developer Tools & Productivity. We decided to create a css buton generator to help developers easily export css code. 
+    This is the fourth project/sprint built for the MLH Explorer Fellowship, built by <a href="https://github.com/nathanlm511"> Nathan </a>, <a href="https://github.com/RupaDuggirala"> Rupa Duggirala</a>,<a href="https://github.com/SincerelyBrittany"> Brittany</a>, and <a href="https://github.com/n-mathis">NaNa</a>.
     <br />
-    <a href="https://github.com/SincerelyBrittany/comprehensive-style-society"><strong>Explore the docs »</strong></a>
     <br />
-    <!-- <br />
-     -->
     <a href="https://github.com/SincerelyBrittany/comprehensive-style-society/issues">Report Bug</a>
     ·
     <a href="https://github.com/SincerelyBrittany/comprehensive-style-society/issues">Request Feature</a>
@@ -34,7 +24,7 @@
 ## Table of Contents
 
 * [About the Project](#about-the-project)
-  * [Built With](#built-with)
+  * [Built With](#Built-&-Tested-With)
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
@@ -50,15 +40,14 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://github.com/SincerelyBrittany/comprehensive-style-society/blob/readme/public/css.gif)
 
+The theme for this project was to create something that would be helpful for Developer Tools & Productivity and we decided to create a css buton generator to help developers easily export css code. The Comprehensive Style Society is an application that allows a user to set styling to the HTML button element. There are several types of properties available for styling the button. The code generator tool can be used to create source code for top most useful CSS stylings and then the code can be copied and exported to the users personal application.
 
-### Built With
+### Built & Tested With
 
 * [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 * [Jest](https://jestjs.io/)
-
-
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -88,12 +77,6 @@ npm install
 npm start
 ```
 
-
-<!-- USAGE EXAMPLES -->
-<!-- ## Usage -->
-
-
-<!-- ROADMAP -->
 ## Roadmap
 
 See the [open issues](https://github.com/SincerelyBrittany/comprehensive-style-society/issues) for a list of proposed features (and known issues).
@@ -158,7 +141,7 @@ Rupa:
 [license-url]: https://github.com/SincerelyBrittany/comprehensive-style-society/blob/readme/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [dev-to-shield]:https://img.shields.io/badge/-Dev.to-black.svg?style=flat-square&logo=dev.to&colorB=555
-[product-screenshot]: https://github.com/SincerelyBrittany/comprehensive-style-society/blob/readme/public/sample-gif.gif
+[product-screenshot]: https://github.com/SincerelyBrittany/comprehensive-style-society/blob/readme/public/css.gif
 
 <!-- Brittany Social Media  -->
 [brittany-linkedin-url]: https://www.linkedin.com/in/sincerelybrittany/
