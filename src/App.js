@@ -38,7 +38,6 @@ export default class App extends Component {
       },
       opacity: 0,
       showCode: false
-
     }
     this.showCode = this.showCode.bind(this);
   }
