@@ -83,7 +83,7 @@ export default class App extends Component {
   }
   borderShadowSlider(e) {
     this.setState({shadow: e.target.value});
-    document.getElementById('generatedButton').style.boxShadow = '0 0px ' + e.target.value + 'px ' + e.target.value + 'px rgba(0,0,0,0.2)';
+    document.getElementById('generatedButton').style.boxShadow = '0 0px ' + e.target.value + 'px ' + e.target.value + 'px';
   }
   opacitySlider(e) {
     this.setState({opacity: e.target.value});
@@ -147,6 +147,11 @@ export default class App extends Component {
   }
 
   render() {
+    var buttonText = "Show CSS";
+    if (this.state.showCode) {
+      buttonText = "Hide CSS"
+    }
+
     return (
       <div className="App">
         <div className="column left-column">
@@ -289,9 +294,9 @@ export default class App extends Component {
             {this.renderSwitch(this.state.presetVisible)}
           </div>
           <div className="json-window card">
-            <button className="showButton" onClick={this.showCode}>
-                Show CSS
-            </button>
+            <div className="showButton" onClick={this.showCode}>
+                {buttonText}
+            </div>
             {this.state.showCode ? <ExportCode fontSize={this.state.fontSize} 
             fontFamily = {this.state.fontFamily}
             fontEmphasis = {this.state.fontEmphasis}
