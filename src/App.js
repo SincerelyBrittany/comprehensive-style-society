@@ -156,8 +156,8 @@ export default class App extends Component {
       <div className="App">
         <div className="column left-column">
           <div className="presets card">
-            <div className="highlight"></div>
-            <p>Basic Presets</p>
+            <div className="highlight2"></div>
+            <p className="filterType">Basic Presets</p>
             <div className="preset-container">
               <div className="preset-row">
                 <div className="preset">
@@ -178,8 +178,8 @@ export default class App extends Component {
             </div>
           </div>
           <div className="presets six card">
-            <div className="highlight"></div>
-            <p>Other Presets</p>
+            <div className="highlight2"></div>
+            <p className="filterType">Other Presets</p>
             <div className="preset-container">
               <div className="preset-row">
                 <div className="preset">
