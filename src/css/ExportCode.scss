@@ -11,13 +11,13 @@
     color: purple;
 }
 .token .attr-name{
-    color: greenyellow;
+    color: #91e7a9;
 }
 .token .attr-value{
     color: lightskyblue;
 }
 .selector {
-    color: greenyellow;
+    color: #91e7a9;
 }
 .property {
     color: purple;
@@ -44,6 +44,8 @@
     box-sizing: border-box;
     text-align: center;
     color: #ffffff;
-    background-color: #4eb5f1;
-    border: 0
+    background-color: #6fb3b8;
+    border: 0;
+    font-family:'montserrat',sans-serif;
+    margin: 14px;
 }
