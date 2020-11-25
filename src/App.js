@@ -37,8 +37,8 @@ export default class App extends Component {
         a: '1',
       },
       opacity: 0,
-      showCode: false
-
+      showCode: false,
+      presetVisible: 'none'
     }
     this.showCode = this.showCode.bind(this);
   }
@@ -83,7 +83,7 @@ export default class App extends Component {
   }
   borderShadowSlider(e) {
     this.setState({shadow: e.target.value});
-    document.getElementById('generatedButton').style.boxShadow = '0 0px ' + e.target.value + 'px ' + e.target.value + 'px rgba(0,0,0,0.2)';
+    document.getElementById('generatedButton').style.boxShadow = '0 0px ' + e.target.value + 'px ' + e.target.value + 'px';
   }
   opacitySlider(e) {
     this.setState({opacity: e.target.value});
@@ -106,6 +106,46 @@ export default class App extends Component {
     document.getElementById('generatedButton').style.borderColor = "rgba(" + color.rgb.r + "," + color.rgb.g + "," + color.rgb.b + "," + color.rgb.a + ")"
   };
 
+  /* Function to toggle between presets: */
+  renderSwitch(presetVisible) {
+    switch (presetVisible) {
+      case 'normal-effect':
+        return <button id="normal-effect">Button</button>;
+      case 'opacity-effect':
+        return <button id="opacity-effect">Button</button>;
+      case 'rounded-corners1-effect':
+        return <button id="rounded-corners1-effect">Button</button>;
+      case 'rounded-corners2-effect':
+        return <button id="rounded-corners2-effect">Button</button>;
+      case 'thin-border-effect':
+        return <button id="thin-border-effect">Button</button>;
+      case 'thick-border-effect':
+        return <button id="thick-border-effect">Button</button>;
+      case 'hover-normal-fill-effect':
+        return <button id="hover-normal-fill-effect">Button</button>;
+      case 'hover-opaque-fill-effect':
+        return <button id="hover-opaque-fill-effect">Button</button>;
+      case 'shadow-effect':
+        return <button id="shadow-effect">Button</button>;
+      case 'hover-shadow-effect':
+        return <button id="hover-shadow-effect">Button</button>;
+      case 'hover-grow-effect':
+        return <button id="hover-grow-effect">Button</button>;
+      case 'hover-shrink-effect':
+        return <button id="hover-shrink-effect">Button</button>;
+      case 'hover-slide-right-effect':
+        return <button id="hover-slide-right-effect">Button</button>;
+      case 'hover-slide-left-effect':
+        return <button id="hover-slide-left-effect">Button</button>;
+      case 'hover-rotate-right-effect':
+        return <button id="hover-rotate-right-effect">Button</button>;
+      case 'hover-rotate-left-effect':
+        return <button id="hover-rotate-left-effect">Button</button>;
+      default:
+        return <button id="generatedButton">Button</button>;
+    }
+  }
+
   render() {
     var buttonText = "Show CSS";
     if (this.state.showCode) {
@@ -121,18 +161,18 @@ export default class App extends Component {
             <div className="preset-container">
               <div className="preset-row">
                 <div className="preset">
-                  <button id="normal-effect">Button</button>
+                  <button id="normal-effect" onClick={() => this.setState({ presetVisible: 'normal-effect' })}>Button</button>
                 </div>
                 <div className="preset">
-                  <button id="opacity-effect">Button</button>
+                  <button id="opacity-effect" onClick={() => this.setState({ presetVisible: 'opacity-effect' })}>Button</button>
                 </div>
               </div>
               <div className="preset-row">
                 <div className="preset">
-                  <button id="rounded-corners1-effect">Button</button>
+                  <button id="rounded-corners1-effect" onClick={() => this.setState({ presetVisible: 'rounded-corners1-effect' })}>Button</button>
                 </div>
                 <div className="preset">
-                  <button id="rounded-corners2-effect">Button</button>
+                  <button id="rounded-corners2-effect" onClick={() => this.setState({ presetVisible: 'rounded-corners2-effect' })}>Button</button>
                 </div>
               </div>
             </div>
@@ -140,6 +180,60 @@ export default class App extends Component {
           <div className="presets six card">
             <div className="highlight2"></div>
             <p className="filterType">Other Presets</p>
+            <div className="preset-container">
+              <div className="preset-row">
+                <div className="preset">
+                  <button id="thin-border-effect" onClick={() => this.setState({ presetVisible: 'thin-border-effect' })}>Button</button>
+                </div>
+                <div className="preset">
+                  <button id="thick-border-effect" onClick={() => this.setState({ presetVisible: 'thick-border-effect' })}>Button</button>
+                </div>
+              </div>
+              <div className="preset-row">
+                <div className="preset">
+                  <button id="hover-normal-fill-effect" onClick={() => this.setState({ presetVisible: 'hover-normal-fill-effect' })}>Button</button>
+                </div>
+                <div className="preset">
+                  <button id="hover-opaque-fill-effect" onClick={() => this.setState({ presetVisible: 'hover-opaque-fill-effect' })}>Button</button>
+                </div>
+              </div>
+              <div className="preset-row">
+                <div className="preset">
+                  <button id="shadow-effect" onClick={() => this.setState({ presetVisible: 'shadow-effect' })}>Button</button>
+                </div>
+                <div className="preset">
+                  <button id="hover-shadow-effect" onClick={() => this.setState({ presetVisible: 'hover-shadow-effect' })}>Button</button>
+                </div>
+              </div>
+              <div className="preset-row">
+                <div className="preset">
+                  <button id="hover-grow-effect" onClick={() => this.setState({ presetVisible: 'hover-grow-effect' })}>Button</button>
+                </div>
+                <div className="preset">
+                  <button id="hover-shrink-effect" onClick={() => this.setState({ presetVisible: 'hover-shrink-effect' })}>Button</button>
+                </div>
+              </div>
+              <div className="preset-row">
+                <div className="preset">
+                  <button id="hover-slide-right-effect" onClick={() => this.setState({ presetVisible: 'hover-slide-right-effect' })}>Button</button>
+                </div>
+                <div className="preset">
+                  <button id="hover-slide-left-effect" onClick={() => this.setState({ presetVisible: 'hover-slide-left-effect' })}>Button</button>
+                </div>
+              </div>
+              <div className="preset-row">
+                <div className="preset">
+                  <button id="hover-rotate-right-effect" onClick={() => this.setState({ presetVisible: 'hover-rotate-right-effect' })}>Button</button>
+                </div>
+                <div className="preset">
+                  <button id="hover-rotate-left-effect" onClick={() => this.setState({ presetVisible: 'hover-rotate-left-effect' })}>Button</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="presets six card">
+            <div className="highlight"></div>
+            <p>Random Presets</p>
             <div className="preset-container">
               <div className="preset-row">
                 <div className="preset">
@@ -197,9 +291,7 @@ export default class App extends Component {
             CSS Generator
           </div>
           <div className="button-window card">
-            <button id="generatedButton">
-              Button
-            </button>
+            {this.renderSwitch(this.state.presetVisible)}
           </div>
           <div className="json-window card">
             <div className="showButton" onClick={this.showCode}>
