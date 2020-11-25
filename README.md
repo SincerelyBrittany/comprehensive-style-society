@@ -9,7 +9,7 @@
   <h1 align="center">Comprehensive Style Society AKA CSS</h1>
 
   <p align="center">
-    This is the fourth project/sprint built for the MLH Explorer Fellowship, built by <a href="https://github.com/nathanlm511"> Nathan</a>, <a href="https://github.com/RupaDuggirala"> Rupa</a>,<a href="https://github.com/SincerelyBrittany"> Brittany</a>, and <a href="https://github.com/n-mathis">Nana</a>.
+    This is the project built for the fourth sprint in the MLH Explorer Fellowship, created by <a href="https://github.com/nathanlm511"> Nathan</a>, <a href="https://github.com/RupaDuggirala"> Rupa</a>,<a href="https://github.com/SincerelyBrittany"> Brittany</a>, and <a href="https://github.com/n-mathis">Nana</a>.
     <br />
     <br />
     <a href="https://github.com/SincerelyBrittany/comprehensive-style-society/issues">Report Bug</a>
